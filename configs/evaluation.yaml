@@ -1,0 +1,4 @@
+evaluation:
+  metrics_filename: episode_metrics.jsonl
+  log_oracle: true
+  log_interval_s: 0.6

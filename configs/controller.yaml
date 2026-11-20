@@ -1,0 +1,25 @@
+controller:
+  coarse_threshold_m: 0.08
+  fine_threshold_m: 0.03
+  close_position_threshold_m: 0.018
+  close_relative_speed_threshold_mps: 0.03
+  max_linear_velocity_mps: 0.20
+  max_linear_acceleration_mps2: 0.50
+  ibvs_gain: 0.8
+
+visibility:
+  warning_margin_px: 40
+  critical_margin_px: 20
+  max_occlusion_ratio: 0.35
+  recenter_gain: 0.5
+
+gripper:
+  min_contact_force_n: 0.03
+  confirm_duration_s: 0.30
+  max_force_imbalance_n: 0.08
+  hold_motion_threshold_m: 0.012
+
+episode:
+  timeout_s: 20.0
+  settling_frames: 30
+  max_retries: 4

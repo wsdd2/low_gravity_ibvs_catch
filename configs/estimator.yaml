@@ -1,0 +1,7 @@
+estimator:
+  model: constant_velocity_ekf
+  max_estimate_age_s: 0.20
+  max_predictive_coast_s: 0.45
+  max_position_std_m: 0.025
+  measurement_sigma_m: 0.012
+  acceleration_sigma: 0.03

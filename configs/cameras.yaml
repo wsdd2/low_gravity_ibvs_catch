@@ -1,0 +1,13 @@
+cameras:
+  width: 640
+  height: 480
+  use_dlss: false
+
+perception:
+  image_width: 640
+  image_height: 480
+  fps: 15
+  use_dlss: false
+  min_confidence: 0.65
+  min_valid_frames: 4
+  max_stereo_residual_m: 0.06
